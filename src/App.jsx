@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   Home,
   About,
@@ -8,11 +9,12 @@ import {
   Vision,
   NotFound,
 } from "./pages/index";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <>
-      Hello
+    <BrowserRouter>
+      <Navbar />
       <Home />
       <About />
       <Donate />
@@ -20,7 +22,7 @@ function App() {
       <Join />
       <Vision />
       <NotFound />
-    </>
+    </BrowserRouter>
   );
 }
 
