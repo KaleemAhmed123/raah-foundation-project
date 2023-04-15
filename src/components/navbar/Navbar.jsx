@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="container nav__container">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" onClick={() => setIsShow(false)}>
           <span className="name">Astha</span> Foundation
         </Link>
         <ul className={`nav__links ${isShow ? "show" : "hide"}`}>
@@ -21,6 +21,7 @@ const Navbar = () => {
                 <NavLink
                   to={path}
                   className={({ isActive }) => (isActive ? "active-nav" : "")}
+                  onClick={() => setIsShow((prev) => !prev)}
                 >
                   {linkName}
                 </NavLink>
@@ -31,7 +32,7 @@ const Navbar = () => {
             <NavLink to="/donate">Donate</NavLink>
           </div>
         </ul>
-        <button className="nav-btn" onClick={() => setIsShow(!isShow)}>
+        <button className="nav-btn" onClick={() => setIsShow((prev) => !prev)}>
           {isShow ? <MdOutlineClose /> : <GoThreeBars />}
         </button>
       </div>
