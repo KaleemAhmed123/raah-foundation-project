@@ -21,10 +21,6 @@ export const links = [
     linkName: "Join US",
     path: "/join",
   },
-  {
-    linkName: "Donate",
-    path: "/donate",
-  },
 ];
 
 // export const team = [

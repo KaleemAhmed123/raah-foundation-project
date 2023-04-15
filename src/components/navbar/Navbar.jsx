@@ -1,28 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
-import Logo from "../../assets/images/logoM.png";
 import { links } from "../../utils/data";
 import { Link, NavLink } from "react-router-dom"; // NavLink fro active prop
 import { GoThreeBars } from "react-icons/go";
+import { MdOutlineClose } from "react-icons/md";
+
 const Navbar = () => {
+  const [isShow, setIsShow] = useState(false);
+
   return (
-    <div className="container nav_container">
-      <Link to="/" className="logo">
-        <img src={Logo} alt="Nav Logo" />
-      </Link>
-      <ul className="nav__links">
-        {links.map(({ linkName, path }, idx) => {
-          return (
-            <li>
-              <NavLink to={path}>{linkName}</NavLink>
-            </li>
-          );
-        })}
-      </ul>
-      <button className="nav_toggle-btn">
-        <GoThreeBars />
-      </button>
-    </div>
+    <nav>
+      <div className="container nav__container">
+        <Link to="/" className="logo">
+          <span className="name">Astha</span> Foundation
+        </Link>
+        <ul className={`nav__links ${isShow ? "show" : "hide"}`}>
+          {links.map(({ linkName, path }, idx) => {
+            return (
+              <li key={idx}>
+                <NavLink
+                  to={path}
+                  className={({ isActive }) => (isActive ? "active-nav" : "")}
+                >
+                  {linkName}
+                </NavLink>
+              </li>
+            );
+          })}
+          <div className="nav-donateBtn">
+            <NavLink to="/donate">Donate</NavLink>
+          </div>
+        </ul>
+        <button className="nav-btn" onClick={() => setIsShow(!isShow)}>
+          {isShow ? <MdOutlineClose /> : <GoThreeBars />}
+        </button>
+      </div>
+    </nav>
   );
 };
 
