@@ -32,10 +32,10 @@
     position: relative;
 }
 .main__hero-circle{
-    width: 28rem;
-    height: 28rem;
+    width: 26rem;
+    height: 26rem;
     background: linear-gradient(50deg, var(--color-primary), transparent);
-    border-radius: 40%;
+    border-radius: 50%;
     position: absolute;
     transition: var(--transition);
 }

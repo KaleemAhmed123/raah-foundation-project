@@ -80,6 +80,7 @@ nav{
         color: var(--color-gray-100);
     }
     .nav__links{
+        z-index: 2;
         position: absolute;
         top: 100%;
         right: 0;
