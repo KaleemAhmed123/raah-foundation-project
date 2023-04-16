@@ -4,5 +4,14 @@ import Programs from "./programs/Programs";
 import SectionName from "./sectionName/SectionName";
 import Testimonials from "./testimonials/Testimonials";
 import Vision from "./vision/Vision";
+import Footer from "../components/footer/Footer";
 
-export { CardWrapper, Hero, Programs, SectionName, Testimonials, Vision };
+export {
+  CardWrapper,
+  Hero,
+  Programs,
+  SectionName,
+  Testimonials,
+  Vision,
+  Footer,
+};

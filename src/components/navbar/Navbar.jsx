@@ -1,18 +1,22 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import { links } from "../../utils/data";
-import { Link, NavLink } from "react-router-dom"; // NavLink fro active prop
+import { Link, NavLink, useNavigate } from "react-router-dom"; // NavLink fro active prop
 import { GoThreeBars } from "react-icons/go";
 import { MdOutlineClose } from "react-icons/md";
 
 const Navbar = () => {
   const [isShow, setIsShow] = useState(false);
+  const navigate = useNavigate();
+  const close = () => {
+    navigate("..");
+  };
 
   return (
     <nav>
-      <div className="container nav__container">
+      <div className="container nav__container" onClick={close}>
         {/* LOGO astha */}
-        <Link to="/" className="logo" onClick={() => setIsShow(false)}>
+        <Link to="/" className="logo">
           <span className="name">Astha</span> Foundation
         </Link>
         {/* navLinks and btnDonate */}
