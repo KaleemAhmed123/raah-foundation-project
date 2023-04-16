@@ -1,7 +1,12 @@
 import React from "react";
 
-const SectionName = () => {
-  return <div>SectionName</div>;
+const SectionName = ({ icon, title }) => {
+  return (
+    <div className="section__name">
+      <span>{icon}</span>
+      <h2>{title}</h2>
+    </div>
+  );
 };
 
 export default SectionName;
