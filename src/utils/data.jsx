@@ -129,7 +129,7 @@ export const programs = [
   },
 ];
 
-export const values = [
+export const vision = [
   {
     id: 1,
     icon: <SiOpenaigym />,
