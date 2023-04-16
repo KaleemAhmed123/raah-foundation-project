@@ -1,0 +1,50 @@
+.main__hero{
+    width: 100vw;
+    height: calc(100vh -3rem);
+    display: grid;
+    place-items: center;
+    margin-top: 10rem;
+}
+.main__hero-container{
+    height: 100%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+.main__hero-left{
+    margin-top: -3rem;
+}
+.main__hero-left h4{
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+    font-weight: 400;
+}
+.main__hero-left p{
+    margin: 1rem 0 3.5rem;
+    font-size: 1.1rem;
+}
+
+.main__hero-right{
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.main__hero-circle{
+    width: 28rem;
+    height: 28rem;
+    background: linear-gradient(50deg, var(--color-primary), transparent);
+    border-radius: 40%;
+    position: absolute;
+    transition: var(--transition);
+}
+.main__hero-img{
+    position: relative;
+}
+.main__hero-right:hover .main__hero-circle{
+    filter: blur(10px);
+
+}
+
+/* Media Queries */
