@@ -10,3 +10,5 @@ const SectionName = ({ icon, title }) => {
 };
 
 export default SectionName;
+
+// css in indexCSS
