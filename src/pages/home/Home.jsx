@@ -1,8 +1,6 @@
 import React from "react";
 import "./home.css";
-import Hero from "../../components/hero/Hero";
-import Programs from "../../components/programs/programs";
-import Vision from "../../components/vision/Vision";
+import { Hero, Programs, Vision, Testimonials } from "../../components/index";
 
 const Home = () => {
   return (
@@ -10,6 +8,7 @@ const Home = () => {
       <Hero />
       <Programs />
       <Vision />
+      <Testimonials />
     </div>
   );
 };
