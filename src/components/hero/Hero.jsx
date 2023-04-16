@@ -16,7 +16,7 @@ const Hero = () => {
             maiores. Consectetur libero est dolor sit amet consectetur
             adipisicing laboriosam accusamus.
           </p>
-          <Link to="/plans" className="btn lg">
+          <Link to="/donate" className="btn lg">
             Donate US
           </Link>
         </div>

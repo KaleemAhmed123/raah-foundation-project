@@ -134,25 +134,25 @@ export const vision = [
     id: 1,
     icon: <SiOpenaigym />,
     title: "Value One",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quis.",
   },
   {
     id: 2,
     icon: <SiOpenaigym />,
     title: "Value Two",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quis.",
   },
   {
     id: 3,
     icon: <SiOpenaigym />,
     title: "Value Three",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quis.",
   },
   {
     id: 4,
     icon: <SiOpenaigym />,
     title: "Value Four",
-    desc: "Placeat quidem facere dicta modi? Pariatur exercitationem illum.",
+    desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quis.",
   },
 ];
 

@@ -1,3 +1,4 @@
+import "./vision.css";
 import Img from "../../assets/images/values.jpg";
 import { GiCutDiamond } from "react-icons/gi";
 import { vision } from "../../utils/data";
@@ -6,25 +7,25 @@ import SectionName from "../../components/sectionName/SectionName";
 
 const Vision = () => {
   return (
-    <section className="vision">
-      <div className="container vision__wrapper">
+    <section className="visions">
+      <div className="container visions__wrapper">
         {/* Left img */}
-        <div className="vision__left">
-          <div className="values__image">
-            <img src={Img} alt="vision images" />
+        <div className="visions__left">
+          <div className="visions__image">
+            {/* <img src={Img} alt="vision images" /> */}
           </div>
         </div>
         {/* Right grid */}
-        <div className="vision__right">
+        <div className="visions__right">
           <SectionName icon={<GiCutDiamond />} title="Vision" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            libero autem perspiciatis beatae enim aliquam.
+            libero lateq issa autem perspiciatis beatae enim aliquam.
           </p>
           <div className="vision__wrapper">
             {vision.map(({ icon, title, desc, id }) => {
               return (
-                <CardWrapper key={id} className="vision__value">
+                <CardWrapper key={id} className="vision">
                   <span>{icon}</span>
                   <h4>{title}</h4>
                   <small>{desc}</small>

@@ -1,0 +1,36 @@
+.visions{
+    margin-top: 8rem;
+}
+.visions__wrapper{
+    display: grid;
+    grid-template-columns: 38% 51%;
+    gap: 11%;
+}
+.visions__image{
+    background: #8080806d;
+    width: 550px;
+    height: 680px;
+    border: 2px solid darkcyan;
+    filter: saturate(0.25);
+    transition: var(--transition);
+}
+.visions__image:hover{
+    filter: saturate(1);
+}
+.visions__right p{
+    margin: 1rem 0 5rem;
+}
+.vision__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem 2.4rem;
+}
+.card.vision{
+    padding-top: 3rem;
+    text-align: left;
+    position: relative;
+}
+.card.vision span{
+    position: absolute;
+    top: -1.5rem;
+}
