@@ -8,11 +8,14 @@ import SectionName from "../../components/sectionName/SectionName";
 const Vision = () => {
   return (
     <section className="visions">
-      <div className="container visions__wrapper">
+      <div className="container vision__container">
         {/* Left img */}
         <div className="visions__left">
           <div className="visions__image">
-            {/* <img src={Img} alt="vision images" /> */}
+            <img
+              src="https://dummyimage.com/650x850/bfbfbf/fff.png"
+              alt="vision images"
+            />
           </div>
         </div>
         {/* Right grid */}

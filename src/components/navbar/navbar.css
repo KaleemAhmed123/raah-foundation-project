@@ -4,7 +4,7 @@ nav{
     display: flex;
     align-items: center;
     background-color: var(--color-primary);
-    /* position: fixed; */
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 10;
@@ -13,6 +13,7 @@ nav{
     height: 100%;
     display: flex;
     justify-content: space-between;
+    padding-right: 1rem;
     align-items: center;
     position: relative; /* for btn*/
 }
@@ -131,3 +132,9 @@ nav{
 
 
 /* mobile only */
+@media screen and (max-width: 580px) {
+    .nav-btn {
+        
+        border-radius: 50%;
+    }
+}

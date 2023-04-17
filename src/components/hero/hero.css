@@ -3,7 +3,7 @@
     height: calc(100vh -3rem);
     display: grid;
     place-items: center;
-    margin-top: 10rem;
+    margin-top: 15rem;
 }
 .main__hero-container{
     height: 100%;
@@ -47,4 +47,42 @@
 
 }
 
-/* Media Queries */
+/* Media Queries MD */
+
+@media screen and (max-width: 1024px) {
+    .main__hero{
+        height: fit-content;
+        padding: 4rem 0;
+    }
+    .main__hero-circle {
+        display: none;
+    }
+
+    .main__hero-img {
+        z-index: -1;
+        opacity: 0.3;
+        margin-top: -25rem;
+        margin-bottom: 0;
+    }
+    .main__hero-container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .main__hero-circle{
+        width: 14rem;
+        height: 14rem;
+    }
+}
+
+/* Media Queries SM */
+
+@media screen and (max-width: 580px) {
+    .main__hero{
+        margin-top: 4.5rem;
+        padding: 4rem 0 0;
+        height: 100vh;
+    }
+    .main__hero-img {
+        margin-top: -40rem;
+    }
+}

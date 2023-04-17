@@ -13,7 +13,7 @@ const Footer = () => {
         {/* grid lev one */}
         <article>
           <Link to="/" className="logo" onClick={() => setIsShow(false)}>
-            <span className="name">Astha</span> Foundation
+            <span className="name">Raah</span> Foundation
           </Link>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
@@ -35,7 +35,7 @@ const Footer = () => {
               <ImFacebook2 />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://instagram.com/raahfoundation_up"
               target="__blank"
               rel="noreferrer noopener"
             >
@@ -57,9 +57,14 @@ const Footer = () => {
           <Link to="/gallery">Gallery</Link>
           <Link to="/about">About</Link>
           <Link to="/join">Joins Us</Link>
-          <Link to="/contact">Contact</Link>
         </article>
         {/* lev three */}
+        <article>
+          <h4>Get In Touch</h4>
+          <Link to="/contact">Contact</Link>
+          <Link to="/about">Support</Link>
+        </article>
+        {/* four */}
         <article>
           <h4>Devoloper</h4>
           <a
@@ -84,15 +89,9 @@ const Footer = () => {
             Portfolio
           </a>
         </article>
-        {/* four */}
-        <article>
-          <h4>Get In Touch</h4>
-          <Link to="/contact">Contact</Link>
-          <Link to="/about">Support</Link>
-        </article>
       </div>
       <div className="footer__copyright">
-        <small>2023 Astha Foundation &copy; All right reserved </small>
+        <small>2023 Raah Foundation &copy; All right reserved </small>
       </div>
     </footer>
   );

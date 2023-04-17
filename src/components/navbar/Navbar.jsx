@@ -14,10 +14,10 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="container nav__container" onClick={close}>
+      <div className="container nav__container">
         {/* LOGO astha */}
         <Link to="/" className="logo">
-          <span className="name">Astha</span> Foundation
+          <span className="name">Raah</span> Foundation
         </Link>
         {/* navLinks and btnDonate */}
         <ul className={`nav__links ${isShow ? "show" : "hide"}`}>

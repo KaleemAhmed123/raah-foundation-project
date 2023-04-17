@@ -9,8 +9,8 @@ const Hero = () => {
       <div className="container main__hero-container">
         {/* Left part( tag, desc, button) */}
         <div className="main__hero-left">
-          <h4>#AsthaHelpingHands</h4>
-          <h1>Astha Foundation &nbsp; Non Profit Org</h1>
+          <h4>#RaahHelpingHands</h4>
+          <h1>Raah Foundation Non Profit Org</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
             maiores. Consectetur libero est dolor sit amet consectetur

@@ -1,16 +1,13 @@
 .visions{
     margin-top: 8rem;
 }
-.visions__wrapper{
+.vision__container{
     display: grid;
     grid-template-columns: 38% 51%;
     gap: 11%;
 }
 .visions__image{
-    background: #8080806d;
-    width: 550px;
-    height: 680px;
-    border: 2px solid darkcyan;
+    margin-top: 4.5rem;
     filter: saturate(0.25);
     transition: var(--transition);
 }
@@ -33,4 +30,27 @@
 .card.vision span{
     position: absolute;
     top: -1.5rem;
+}
+
+/* Media queries */
+@media screen and (max-width: 1024px) {
+    .vision__container{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
+    .vision__wrapper{
+        gap: 4rem 3rem;
+    }
+    .visions__image{
+        display: none;
+    }
+}
+/* Media queries */
+@media screen and (max-width: 580px) {
+    .vision__wrapper{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 4rem;
+    }
 }
