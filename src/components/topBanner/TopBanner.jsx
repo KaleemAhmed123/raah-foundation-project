@@ -1,6 +1,3 @@
-import React from "react";
-import "./topBanner.css";
-
 const TopBanner = ({ title, image, children }) => {
   return (
     <header className="header">

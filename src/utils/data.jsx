@@ -14,8 +14,8 @@ export const links = [
     path: "/gallery",
   },
   {
-    linkName: "Vision",
-    path: "/vision",
+    linkName: "Contact",
+    path: "/contact",
   },
   {
     linkName: "Join US",

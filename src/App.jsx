@@ -7,7 +7,7 @@ import {
   Donate,
   Gallery,
   Join,
-  Vision,
+  Contact,
   NotFound,
 } from "./pages/index";
 
@@ -17,7 +17,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path="vision" element={<Vision />} />
+        <Route path="contact" element={<Contact />} />
         <Route path="gallery" element={<Gallery />} />
         <Route path="about" element={<About />} />
         <Route path="join" element={<Join />} />

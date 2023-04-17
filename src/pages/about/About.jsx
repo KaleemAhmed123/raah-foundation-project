@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import TopBanner from "../../components/topBanner/TopBanner";
-import image from "../../assets/images/header_bg_1.jpg";
+import image from "../../assets/images/gallery7_15.webp";
 import aboutImg from "../../assets/images/about1.jpg";
 
 const About = () => {
@@ -14,7 +14,7 @@ const About = () => {
         consectetur unde provident?
       </TopBanner>
 
-      <section className="about">
+      {/* <section className="about">
         <div className="container about__story-container">
           <div className="about__section-image">
             <img src={aboutImg} alt="story img" />
@@ -42,7 +42,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
