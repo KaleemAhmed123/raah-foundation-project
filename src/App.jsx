@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navbar, Footer } from "./components/index";
 import {
   Home,
   About,
@@ -8,7 +9,6 @@ import {
   Join,
   Vision,
   NotFound,
-  Navbar,
 } from "./pages/index";
 
 function App() {
