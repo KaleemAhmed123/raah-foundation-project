@@ -1,5 +1,11 @@
+/*  display: -webkit-box;
+ -webkit-line-clamp: 3; */
+
+ /* ADD in all boxes */
+
+
 .visions{
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 .vision__container{
     display: grid;

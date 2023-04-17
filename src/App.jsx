@@ -8,8 +8,8 @@ import {
   Join,
   Vision,
   NotFound,
+  Navbar,
 } from "./pages/index";
-import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
@@ -24,6 +24,7 @@ function App() {
         <Route path="donate" element={<Donate />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
