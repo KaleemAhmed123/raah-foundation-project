@@ -78,8 +78,8 @@
 
 @media screen and (max-width: 580px) {
     .main__hero{
-        margin-top: 4.5rem;
-        padding: 4rem 0 0;
+        margin-top: 3rem;
+        padding: 2rem 0 0;
         height: 100vh;
     }
     .main__hero-img {

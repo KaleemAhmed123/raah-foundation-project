@@ -18,7 +18,7 @@
 /* media queries  MD */
 @media screen and (max-width: 580px) {
     .programs {
-        margin-top: -4rem;
+        margin-top: -6rem;
     }
     .programs__wrapper {
         grid-template-columns: 1fr;

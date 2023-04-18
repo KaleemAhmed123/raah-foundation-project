@@ -27,6 +27,12 @@
     box-shadow: 0 1.5rem 2rem rgba(26, 26, 54, 0.5);
     transition: var(--transition);
 }
+.testimonial__quote{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
 .testimonial:hover .testimonial__avatar{
     border-color: var(--color-gray-400);
 }
@@ -61,5 +67,8 @@
 @media screen and (max-width: 580px) {
     .testimonial{
         width: 100%;
+    }
+    .testimonials__btn-container button{
+        padding: 0;
     }
 }

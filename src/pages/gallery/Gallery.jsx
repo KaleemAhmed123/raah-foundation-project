@@ -13,6 +13,9 @@ const Gallery = () => {
     else images.push(land);
   }
   // console.log(images);
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: smooth });
+  }, []);
 
   return (
     <>

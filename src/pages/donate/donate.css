@@ -1,5 +1,6 @@
 .donate-page{
     margin-top: 2.5rem;
+    width: 100vw;
 }
 .head-text {
     text-align: center;
@@ -101,8 +102,10 @@
     }
 }
 @media screen and (max-width: 580px) {
-    .donate-form div{
-        width: 90%;
+    .donate-form {
+        justify-content: start;
+        width: 100%;
+        padding: 0 1rem;
         margin: 1rem 0;
     }
 }

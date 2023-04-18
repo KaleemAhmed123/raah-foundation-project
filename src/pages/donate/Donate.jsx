@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./donate.css";
 import emailImg from "../../assets/images/email.png";
 import mobile from "../../assets/images/mobile.png";
@@ -26,6 +26,9 @@ const Donate = () => {
     // setLoading(true);
   };
 
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: smooth });
+  }, []);
   //
   return (
     <div className="donate-page">
