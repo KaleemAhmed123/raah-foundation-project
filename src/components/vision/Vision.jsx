@@ -1,5 +1,5 @@
 import "./vision.css";
-import Img from "../../assets/images/values.jpg";
+import Img from "../../assets/images/gallery1_6.webp";
 import { GiCutDiamond } from "react-icons/gi";
 import { vision } from "../../utils/data";
 import CardWrapper from "../../components/cardWrapper/CardWrapper";

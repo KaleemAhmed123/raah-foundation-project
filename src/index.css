@@ -105,7 +105,11 @@ img{
     color: var(--color-secondary);
     font-size: 1.5rem;
 }
-
+.app__flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* general card CSS */
 
