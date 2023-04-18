@@ -1,6 +1,6 @@
 import "./contact.css";
 import TopBanner from "../../components/topBanner/TopBanner";
-import image from "../../assets/images/temp.webp";
+import image from "../../assets/images/Banner.jpg";
 import { MdEmail } from "react-icons/md";
 import { BsMessenger, BsWhatsapp } from "react-icons/bs";
 import { IoLogoWhatsapp } from "react-icons/io";

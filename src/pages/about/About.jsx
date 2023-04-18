@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import TopBanner from "../../components/topBanner/TopBanner";
-import image from "../../assets/images/gallery7_15.webp";
+import image from "../../assets/images/Banner.jpg";
 import aboutImg from "../../assets/images/about1.jpg";
 
 const About = () => {

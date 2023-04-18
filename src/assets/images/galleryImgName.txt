@@ -1,0 +1,12 @@
+
+
+///////////////////////////////////////////////////////////
+
+
+
+	gallery images names must be (cause of data.js)
+
+
+	gallery1, gallery2. gallery3, gallery4 and so on till 15
+
+	and change the logic in imports, or add an index.js
