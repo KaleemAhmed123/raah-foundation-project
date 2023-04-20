@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./gallery.css";
 import Banner from "../../assets/images/Banner.jpg";
 import TopBanner from "../../components/topBanner/TopBanner";
@@ -14,7 +15,7 @@ const Gallery = () => {
   }
   // console.log(images);
   useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: smooth });
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
   return (
